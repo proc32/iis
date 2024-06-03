@@ -1,0 +1,28 @@
+/* Styles for screens smaller than 768px */
+
+@media (max-width: 768px) {
+    /* Add your responsive styles here */
+    /* For example, make images and videos fill the width of the screen */
+    img,
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for screens smaller than 600px */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Adjust styles for screens smaller than 400px */
+    body {
+        font-size: 12px;
+    }
+}
